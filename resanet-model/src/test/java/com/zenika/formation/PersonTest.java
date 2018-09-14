@@ -21,7 +21,7 @@ public class PersonTest {
 		p.setName("Zenika");
 		p.setFirstName("Zenika first name");
 
-		Assert.assertEquals("Zenikaqsdf", p.getName());
+		Assert.assertEquals("Zenika", p.getName());
 		Assert.assertEquals("Zenika first name", p.getFirstName());
 	}
 }
